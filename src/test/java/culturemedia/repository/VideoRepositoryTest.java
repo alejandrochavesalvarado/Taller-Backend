@@ -66,6 +66,4 @@ class VideoRepositoryTest {
         List<Video> videos = videoRepository.findByDuration(10.0, 15.0);  // Usamos un rango en el que sabemos que no hay coincidencias
         assertTrue(videos.isEmpty(), "La lista no está vacía, se esperaba que estuviera vacía.");
     }
-
-
 }
